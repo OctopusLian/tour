@@ -10,11 +10,11 @@ import (
 )
 
 const (
-	MODE_UPPER                         = iota + 1 //全部单词转为大写
-	MODE_LOWER                                    //全部单词转为小写
-	MODE_UNDERSCORE_TO_UPPER_CAMELCASE            //下划线单词转为大写驼峰单词
-	MODE_UNDERSCORE_TO_LOWER_CAMELCASE            //下划线单词转为小写驼峰单词
-	MODE_CAMELCASE_TO_UNDERSCORE                  //驼峰单词转为下划线单词
+	ModeUpper                      = iota + 1 // 全部转大写
+	ModeLower                                 // 全部转小写
+	ModeUnderscoreToUpperCamelCase            // 下划线转大写驼峰
+	ModeUnderscoreToLowerCamelCase            // 下线线转小写驼峰
+	ModeCamelCaseToUnderscore                 // 驼峰转下划线
 )
 
 var str string
