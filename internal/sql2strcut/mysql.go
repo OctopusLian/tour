@@ -1,4 +1,4 @@
-package sql2struct
+package sql2strcut
 
 import (
 	"database/sql"

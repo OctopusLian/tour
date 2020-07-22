@@ -26,3 +26,12 @@ Flags:
 2020/07/17 17:44:23 输出结果:2020-07-17 17:44:23,1594979063
 
 ```
+
+## sql2struct  
+
+`struct`拼写有误,需要修改.  
+
+```
+# go run main.go sql struct --username 数据库的账号 --password 数据库的密码 --db=数据库的名称 --table "需要转换的表名"
+
+```
